@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.header {
+  background-image: url("../images/desktop/image-header.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+}
+.header-container {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container:nth-child(1) {
+  margin: auto;
+}
+.header-logo {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+.header .menu {
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-weight: 500;
+}
+.header-auth {
+  display: flex;
+  gap: 0 30px;
+  align-items: center;
+}
+.header-contact {
+  padding: 15px 25px;
+  background-color: white;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: hsl(198, 62%, 26%);
+  border-radius: 100rem;
+}
+.header-center {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-title {
+  font-family: "Fraunces", serif;
+  font-size: 60px;
+  letter-spacing: 10px;
+  color: white;
+  text-transform: uppercase;
+}/*# sourceMappingURL=app.css.map */
